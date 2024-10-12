@@ -1,5 +1,9 @@
 import browser from 'webextension-polyfill';
 
+// TODO: Only run on tested / valid sites.
+
+// TODO: Replace videoElement with proper elements from README
+
 const trackWatchActivity = () => {
   const videoElement = document.querySelector('video');
   if (videoElement) {

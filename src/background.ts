@@ -12,6 +12,9 @@ interface WatchActivityMessage {
     };
 }
 
+// TODO: Process creatorUrl to match on different platforms
+//          even for the same creator.
+
 // Listener for when the content script sends data
 browser.runtime.onMessage.addListener(
     (message: unknown,
@@ -61,3 +64,5 @@ function isWatchActivityMessage(message: unknown): message is WatchActivityMessa
 
 // TODO: Make sure the api request is only sent once. Implement a cache so that
 //          repeat requests do not happen. (Check for uuid).
+
+// TODO: Make sure the user is not repeatedly prompted.
