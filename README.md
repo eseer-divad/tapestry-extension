@@ -1,8 +1,8 @@
-# Tapestry Social Browser Extension
+# Capybara Networks Browser Extension
 
 Reads watch activity across websites and outputs a unique creatorId to the console and an API endpoint.
 
-Users should not be prompted to join that Tapestry/community immediately upon detecting watch activity. Say someone should be invited to that Tapestry after:
+Users should not be prompted to join that community immediately upon detecting watch activity. Say someone should be invited to that Tapestry after:
 
 * Music: After listening to the same artist 10 times.
 
